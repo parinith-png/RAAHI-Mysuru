@@ -1,0 +1,70 @@
+{
+  "total_records_read": 301761,
+  "valid_coordinates": 95722,
+  "invalid_or_missing_coordinates": 206030,
+  "excluded_shifted_rows_count": 9,
+  "columns": [
+    "DISTRICTNAME",
+    "UNITNAME",
+    "Crime_No",
+    "Year",
+    "RI",
+    "Noofvehicle_involved",
+    "Accident_Classification",
+    "Accident_Spot",
+    "Accident_Location",
+    "Accident_SubLocation",
+    "Accident_SpotB",
+    "Main_Cause",
+    "Hit_Run",
+    "Severity",
+    "Collision_Type",
+    "Junction_Control",
+    "Road_Character",
+    "Road_Type",
+    "Surface_Type",
+    "Surface_Condition",
+    "Road_Condition",
+    "Weather",
+    "Lane_Type",
+    "Road_Markings",
+    "Spot_Conditions",
+    "Side_Walk",
+    "RoadJunction",
+    "Collision_TypeB",
+    "Accident_Road",
+    "Landmark_first",
+    "landmark_second",
+    "Distance_LandMark_First",
+    "Distance_LandMark_Second",
+    "Accident_Description",
+    "Latitude",
+    "Longitude"
+  ],
+  "mysuru_audit": {
+    "direct_mysuru_city_matches_in_bbox": 3106,
+    "direct_mysuru_district_matches_in_bbox": 1937,
+    "spatial_only_matches_in_bbox": 3147,
+    "outliers_removed_outside_bbox": 35,
+    "final_unique_mysuru_records": 8190,
+    "geographic_limits": {
+      "min_latitude": 11.750916,
+      "max_latitude": 12.749609,
+      "min_longitude": 75.800064,
+      "max_longitude": 77.1997709
+    },
+    "bounding_boxes_used": {
+      "mysuru_district_envelope": {
+        "min_lat": 11.75,
+        "max_lat": 12.75,
+        "min_lng": 75.8,
+        "max_lng": 77.2
+      }
+    }
+  },
+  "karnataka_grid": {
+    "grid_resolution_degrees": 0.02,
+    "total_pre_aggregated_records": 87497,
+    "aggregated_risk_cells_count": 15199
+  }
+}
