@@ -20,7 +20,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open http://localhost:5173 on your phone or browser.
+Open https://raahi-mysuru.vercel.app/ on your phone or browser.
 
 ---
 
